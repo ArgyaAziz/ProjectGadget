@@ -28,4 +28,12 @@ Route::get('/register', function () {
 Route::get('/home', function () {
    return view('home');
 });
+
+Route::get('/smartphone', function () {
+    return view('smartphone');
+ });
+
+ Route::get('/laptop', function () {
+    return view('laptop');
+ });
 ?>
